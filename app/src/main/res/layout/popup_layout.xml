@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_corner"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_zz"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textcolor_selector"
+        android:gravity="center"
+        android:text="设为组长"
+        android:textColor="@color/text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_qxzz"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textcolor_selector"
+        android:gravity="center"
+        android:text="取消组长"
+        android:textColor="@color/text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/textcolor_selector" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_popup_1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_popup_2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_popup_3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_popup_4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_popup_5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_popup_6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/text"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:id="@+id/fl_click_leave"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/textcolor_selector"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textSize="14sp">
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="请假"
+                android:textColor="@color/text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:text="   >"
+                android:textColor="@color/text" />
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

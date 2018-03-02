@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/text"
+    android:orientation="horizontal"
+    android:layout_marginBottom="0.5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="2.2"
+        android:background="#d4f1ff"
+
+        android:gravity="center"
+        android:text="编号"
+        android:textColor="@color/text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1.9"
+        android:background="#d4f1ff"
+        android:gravity="center"
+        android:text="时间安排"
+        android:textColor="@color/text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.8"
+        android:background="#d4f1ff"
+        android:gravity="center"
+        android:text="人员姓名"
+        android:textColor="@color/text"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

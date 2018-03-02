@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="left_navigation">#263238</color>
+    <color name="rg_bg">#0B222E</color>
+    <color name="bg">#f3f3f3</color>
+    <color name="text">#000000</color>
+    <color name="baise">#ffffff</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="work_popup_text_selecter">#d4f1ff</color>
+
+</resources>

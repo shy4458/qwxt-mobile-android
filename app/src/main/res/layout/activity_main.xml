@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.sx.qwxt.view.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/left_navigation">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/ic_login"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大栅栏"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="勤务信息系统"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_marginTop="10dp"
+                android:id="@+id/rg_navigation"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="100dp"
+                android:orientation="vertical">
+                
+               <RadioButton
+                   android:id="@+id/rbtn_sign"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:background="@drawable/left_navigation_bg_selector"
+                   android:button="@null"
+                   android:text="点名考勤"
+                   android:gravity="center"
+                   android:textSize="18sp"
+                   />
+                <RadioButton
+                    android:id="@+id/rbtn_work_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_navigation_bg_selector"
+                    android:button="@null"
+                    android:text="勤务安排"
+                    android:gravity="center"
+                    android:textSize="18sp"/>
+                <RadioButton
+                    android:id="@+id/rbtn_vehice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_navigation_bg_selector"
+                    android:button="@null"
+                    android:text="车辆管理"
+                    android:gravity="center"
+                    android:textSize="18sp"/>
+                <RadioButton
+                    android:id="@+id/rbtn_record"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/left_navigation_bg_selector"
+                    android:button="@null"
+                    android:text="记录查询"
+                    android:gravity="center"
+                    android:textSize="18sp"/>
+
+                
+            </RadioGroup>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bg"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_weight="1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/user_img"/>
+
+                <TextView
+                    android:id="@+id/tv_backsign"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退出"
+                    android:textSize="16sp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

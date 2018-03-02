@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/ll_vehicle_back"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/record_back_selecter" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="返回"
+                android:textColor="@color/text"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/baise"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rg_vehicle_nav"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtn_vehice_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/work_manager_radiobutton_selector"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="一组"
+                    android:textColor="@color/text" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_vehice_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/work_manager_radiobutton_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="二组"
+                    android:textColor="@color/text" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_vehice_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/work_manager_radiobutton_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="三组"
+                    android:textColor="@color/text" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_vehice_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/work_manager_radiobutton_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="四组"
+                    android:textColor="@color/text" />
+
+            </RadioGroup>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_vehicle_lend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.4"
+            android:background="@color/baise"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="请输入里程数"
+                    android:textColor="@color/text"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/et_dometer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:hint="里程数"
+                        android:numeric="integer"
+                        android:textColor="@color/text"
+                        android:textColorHint="#979797"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+                <!--<TextView-->
+                <!--android:id="@+id/tv_lend_start"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_height="30dp"-->
+
+                <!--android:gravity="center"-->
+                <!--android:text="开始时间:"-->
+                <!--android:textColor="@color/text"-->
+                <!--android:textSize="18sp"/>-->
+
+
+                <!--<com.sx.qwxt.view.widget.PickTimeView-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:id="@+id/ptv_lend_start"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="120dp">-->
+
+                <!--</com.sx.qwxt.view.widget.PickTimeView>-->
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.6"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/lend_shape_corner"
+                    android:text="取消"
+                    android:textColor="@color/text" />
+
+                <Button
+                    android:id="@+id/b_yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/login_button_bg"
+                    android:text="确定" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

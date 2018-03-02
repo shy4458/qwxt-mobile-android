@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginBottom="0.5dp"
+    android:background="#d4f1ff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="序号"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="车牌号"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:text="车辆借出信息"
+        android:textColor="@color/text"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:text="车辆归还信息"
+        android:textColor="@color/text"
+        android:gravity="center">
+    </TextView>
+
+</LinearLayout>
